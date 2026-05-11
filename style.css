@@ -1,1 +1,87 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f4f4;
+}
 
+/* HEADER */
+header {
+  background: #6aa84f;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: white;
+}
+
+/* HERO */
+.hero {
+  background: orange;
+  text-align: center;
+  padding: 40px;
+}
+
+.hero h1 {
+  background: black;
+  color: white;
+  display: inline-block;
+  padding: 10px 30px;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: #93c47d;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+/* HOVER ANIMATION */
+.card:hover {
+  transform: scale(1.05);
+  background: #6aa84f;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: white;
+  color: black;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+}
