@@ -1,5 +1,4 @@
-// Fade-in effect
-window.onload = function () {
+window.onload = () => {
   document.body.style.opacity = 0;
   setTimeout(() => {
     document.body.style.transition = "1s";
