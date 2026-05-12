@@ -11,6 +11,10 @@ body {
   align-items: center;
   background: linear-gradient(to right, #1f6b3c, #2e8b57);
   padding: 10px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  
 }
 
 .logo {
