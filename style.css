@@ -42,3 +42,37 @@
   border-radius: 50%;
   cursor: pointer;
 }
+
+
+
+
+/* ===== EXISTING CODE ABOVE ===== */
+
+
+/* ===== ADD NEW CSS BELOW ===== */
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+#searchBar {
+  padding: 10px;
+  width: 250px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#topBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+}
