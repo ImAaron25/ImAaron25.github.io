@@ -42,3 +42,26 @@
   border-radius: 50%;
   cursor: pointer;
 }
+
+
+
+
+
+
+
+
+.accordion-btn {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #2e8b57;
+  color: white;
+  cursor: pointer;
+  text-align: left;
+}
+
+.panel {
+  display: none;
+  padding: 10px;
+  background: #f4f4f4;
+}
